@@ -1,0 +1,10 @@
+#O(1)- constant time complexity
+li = [10,20,30,40,50]
+print(li[2])
+
+li.append(60)
+#O(n) - time complexity
+li.insert(0,100)
+
+
+
