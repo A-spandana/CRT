@@ -1,9 +1,8 @@
 def Reverse_String(s: str) -> str:
-   reversed_string = ""
-   for char in s:
-      reversed_string = char + reversed_string
-
-   return reversed_string
+    rev = ""
+    for i in s:
+        rev = i + rev
+    return rev
 
 
 if __name__ == '__main__':
